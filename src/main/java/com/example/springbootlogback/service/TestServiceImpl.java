@@ -23,7 +23,7 @@ public class TestServiceImpl implements TestService{
         log.error("error !!!!");
         log.warn("warn ！！！！");
 //        int i=1/0;
-        return "11122323";
+        return "6666";
     }
 
 }
