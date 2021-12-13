@@ -1,0 +1,19 @@
+spring:
+    profiles:
+        default: pro
+    jackson:
+        time-zone: GMT+8
+    datasource:
+        username: test
+        password: '!123qweASD'
+        url: jdbc:mysql://106.15.72.110:3306/mbjl_database?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+    level:
+        com.example.springbootlogback: debug
+        org.springframework: warn
+    config: classpath:logback-spring.xml
+
+
