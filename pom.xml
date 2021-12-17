@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-logback</name>
 <!--    springboot项目启动，放在tomcat服务器下面启动，修改打包方式-->
-<!--    <packaging>war</packaging>-->
+    <packaging>war</packaging>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
